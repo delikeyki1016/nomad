@@ -1,4 +1,4 @@
-import styles from './movievideo.module.css'
+import styles from '../styles/movievideo.module.css'
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL
 

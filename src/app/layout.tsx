@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./styles/globals.css";
 import Link from "next/link";
-import Navigation from "../components/navigation";
+import Navigation from "./components/navigation";
 import { Metadata } from "next";
 
 
