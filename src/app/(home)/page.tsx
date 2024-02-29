@@ -25,7 +25,7 @@ export default async function Home() {
       {movies.map((movie) => (
         <div key={movie.id} className={styles.movie}>
           <img src={movie.poster_path} alt={movie.title} />
-          <Link href={`/movies/${movie.id}`}>{movie.title}</Link>
+          <Link prefetch href={`/movies/${movie.id}`}>{movie.title}</Link>
         </div>
       ))}
     </div>
