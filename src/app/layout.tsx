@@ -9,10 +9,10 @@ import { Metadata } from "next";
 
 export const metadata : Metadata = {
   title: {
-    template: "%s | Rare Books",
-    default: "Rare Books",
+    template: "%s | Movie info List",
+    default: "Movie info List",
   },
-  description: "Out of prints Reverse Auction",
+  description: "Movie info List by nomad NextJS lecture",
 };
 
 export default function RootLayout({ children }) {
